@@ -2,6 +2,11 @@ package com;
 
 public class Test {
 	public static void main(String[] args) {
-		System.out.println("Hello GIT!!!");
+		try {
+			System.out.println("Hello GIT!!!");	
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
+		
 	}
 }
